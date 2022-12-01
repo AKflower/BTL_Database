@@ -1,0 +1,12 @@
+USE xxx;
+
+DELIMITER $$
+
+CREATE TRIGGER insertKienHang
+    BEFORE INSERT
+    ON kien_hang FOR EACH ROW
+BEGIN
+    
+END$$    
+
+DELIMITER ;
